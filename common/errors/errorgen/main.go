@@ -13,7 +13,7 @@ func main() {
 		os.Exit(1)
 	}
 	pkg := filepath.Base(pwd)
-	if pkg == "xray-core" {
+	if pkg == "quick-core" {
 		pkg = "core"
 	}
 

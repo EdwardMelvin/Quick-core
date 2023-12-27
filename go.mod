@@ -1,4 +1,4 @@
-module EdwardMelvin/quick-core
+module github.com/edwardmelvin/quick-core
 
 go 1.21.4
 
