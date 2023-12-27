@@ -1,4 +1,4 @@
-module github.com/EdwardMelvin/quick-core
+module github.com/xtls/xray-core
 
 go 1.21.4
 
