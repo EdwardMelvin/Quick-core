@@ -7,12 +7,12 @@ import (
 	"testing"
 	_ "unsafe"
 
-	"github.com/xtls/xray-core/app/router"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/platform"
-	"github.com/xtls/xray-core/common/platform/filesystem"
-	. "github.com/xtls/xray-core/infra/conf"
+	"github.com/edwardmelvin/quick-core/app/router"
+	"github.com/edwardmelvin/quick-core/common"
+	"github.com/edwardmelvin/quick-core/common/net"
+	"github.com/edwardmelvin/quick-core/common/platform"
+	"github.com/edwardmelvin/quick-core/common/platform/filesystem"
+	. "github.com/edwardmelvin/quick-core/infra/conf"
 	"google.golang.org/protobuf/proto"
 )
 

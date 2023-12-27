@@ -3,8 +3,8 @@ package internet
 import (
 	"context"
 
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/transport/internet/stat"
+	"github.com/edwardmelvin/quick-core/common/net"
+	"github.com/edwardmelvin/quick-core/transport/internet/stat"
 )
 
 var transportListenerCache = make(map[string]ListenFunc)

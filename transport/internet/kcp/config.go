@@ -3,8 +3,8 @@ package kcp
 import (
 	"crypto/cipher"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/transport/internet"
+	"github.com/edwardmelvin/quick-core/common"
+	"github.com/edwardmelvin/quick-core/transport/internet"
 )
 
 const protocolName = "mkcp"

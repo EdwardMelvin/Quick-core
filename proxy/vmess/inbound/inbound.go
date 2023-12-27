@@ -1,6 +1,6 @@
 package inbound
 
-//go:generate go run github.com/xtls/xray-core/common/errors/errorgen
+//go:generate go run github.com/edwardmelvin/quick-core/common/errors/errorgen
 
 import (
 	"context"
@@ -9,23 +9,23 @@ import (
 	"sync"
 	"time"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/log"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/session"
-	"github.com/xtls/xray-core/common/signal"
-	"github.com/xtls/xray-core/common/task"
-	"github.com/xtls/xray-core/common/uuid"
-	"github.com/xtls/xray-core/core"
-	feature_inbound "github.com/xtls/xray-core/features/inbound"
-	"github.com/xtls/xray-core/features/policy"
-	"github.com/xtls/xray-core/features/routing"
-	"github.com/xtls/xray-core/proxy/vmess"
-	"github.com/xtls/xray-core/proxy/vmess/encoding"
-	"github.com/xtls/xray-core/transport/internet/stat"
+	"github.com/edwardmelvin/quick-core/common"
+	"github.com/edwardmelvin/quick-core/common/buf"
+	"github.com/edwardmelvin/quick-core/common/errors"
+	"github.com/edwardmelvin/quick-core/common/log"
+	"github.com/edwardmelvin/quick-core/common/net"
+	"github.com/edwardmelvin/quick-core/common/protocol"
+	"github.com/edwardmelvin/quick-core/common/session"
+	"github.com/edwardmelvin/quick-core/common/signal"
+	"github.com/edwardmelvin/quick-core/common/task"
+	"github.com/edwardmelvin/quick-core/common/uuid"
+	"github.com/edwardmelvin/quick-core/core"
+	feature_inbound "github.com/edwardmelvin/quick-core/features/inbound"
+	"github.com/edwardmelvin/quick-core/features/policy"
+	"github.com/edwardmelvin/quick-core/features/routing"
+	"github.com/edwardmelvin/quick-core/proxy/vmess"
+	"github.com/edwardmelvin/quick-core/proxy/vmess/encoding"
+	"github.com/edwardmelvin/quick-core/transport/internet/stat"
 )
 
 type userByEmail struct {

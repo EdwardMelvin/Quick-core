@@ -3,12 +3,12 @@ package json
 import (
 	"io"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/cmdarg"
-	"github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/infra/conf"
-	"github.com/xtls/xray-core/infra/conf/serial"
-	"github.com/xtls/xray-core/main/confloader"
+	"github.com/edwardmelvin/quick-core/common"
+	"github.com/edwardmelvin/quick-core/common/cmdarg"
+	"github.com/edwardmelvin/quick-core/core"
+	"github.com/edwardmelvin/quick-core/infra/conf"
+	"github.com/edwardmelvin/quick-core/infra/conf/serial"
+	"github.com/edwardmelvin/quick-core/main/confloader"
 )
 
 func init() {

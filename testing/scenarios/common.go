@@ -14,16 +14,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/xtls/xray-core/app/dispatcher"
-	"github.com/xtls/xray-core/app/proxyman"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/log"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/retry"
-	"github.com/xtls/xray-core/common/serial"
-	"github.com/xtls/xray-core/common/units"
-	core "github.com/xtls/xray-core/core"
+	"github.com/edwardmelvin/quick-core/app/dispatcher"
+	"github.com/edwardmelvin/quick-core/app/proxyman"
+	"github.com/edwardmelvin/quick-core/common"
+	"github.com/edwardmelvin/quick-core/common/errors"
+	"github.com/edwardmelvin/quick-core/common/log"
+	"github.com/edwardmelvin/quick-core/common/net"
+	"github.com/edwardmelvin/quick-core/common/retry"
+	"github.com/edwardmelvin/quick-core/common/serial"
+	"github.com/edwardmelvin/quick-core/common/units"
+	core "github.com/edwardmelvin/quick-core/core"
 	"google.golang.org/protobuf/proto"
 )
 
@@ -120,7 +120,7 @@ func genTestBinaryPath() {
 }
 
 func GetSourcePath() string {
-	return filepath.Join("github.com", "xtls", "xray-core", "main")
+	return filepath.Join("github.com", "edwardmelvin", "quick-core", "main")
 }
 
 func CloseAllServers(servers []*exec.Cmd) {

@@ -5,10 +5,10 @@ import (
 	"syscall"
 	"testing"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/testing/servers/tcp"
-	. "github.com/xtls/xray-core/transport/internet"
+	"github.com/edwardmelvin/quick-core/common"
+	"github.com/edwardmelvin/quick-core/common/net"
+	"github.com/edwardmelvin/quick-core/testing/servers/tcp"
+	. "github.com/edwardmelvin/quick-core/transport/internet"
 )
 
 func TestSockOptMark(t *testing.T) {

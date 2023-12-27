@@ -3,10 +3,10 @@ package router
 import (
 	"context"
 
-	"github.com/xtls/xray-core/app/observatory"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/features/extension"
+	"github.com/edwardmelvin/quick-core/app/observatory"
+	"github.com/edwardmelvin/quick-core/common"
+	"github.com/edwardmelvin/quick-core/core"
+	"github.com/edwardmelvin/quick-core/features/extension"
 )
 
 type LeastPingStrategy struct {

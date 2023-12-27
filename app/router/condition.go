@@ -4,9 +4,9 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/strmatcher"
-	"github.com/xtls/xray-core/features/routing"
+	"github.com/edwardmelvin/quick-core/common/net"
+	"github.com/edwardmelvin/quick-core/common/strmatcher"
+	"github.com/edwardmelvin/quick-core/features/routing"
 )
 
 type Condition interface {

@@ -1,6 +1,6 @@
 package dispatcher
 
-//go:generate go run github.com/xtls/xray-core/common/errors/errorgen
+//go:generate go run github.com/edwardmelvin/quick-core/common/errors/errorgen
 
 import (
 	"context"
@@ -8,21 +8,21 @@ import (
 	"sync"
 	"time"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/log"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/session"
-	"github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/features/dns"
-	"github.com/xtls/xray-core/features/outbound"
-	"github.com/xtls/xray-core/features/policy"
-	"github.com/xtls/xray-core/features/routing"
-	routing_session "github.com/xtls/xray-core/features/routing/session"
-	"github.com/xtls/xray-core/features/stats"
-	"github.com/xtls/xray-core/transport"
-	"github.com/xtls/xray-core/transport/pipe"
+	"github.com/edwardmelvin/quick-core/common"
+	"github.com/edwardmelvin/quick-core/common/buf"
+	"github.com/edwardmelvin/quick-core/common/log"
+	"github.com/edwardmelvin/quick-core/common/net"
+	"github.com/edwardmelvin/quick-core/common/protocol"
+	"github.com/edwardmelvin/quick-core/common/session"
+	"github.com/edwardmelvin/quick-core/core"
+	"github.com/edwardmelvin/quick-core/features/dns"
+	"github.com/edwardmelvin/quick-core/features/outbound"
+	"github.com/edwardmelvin/quick-core/features/policy"
+	"github.com/edwardmelvin/quick-core/features/routing"
+	routing_session "github.com/edwardmelvin/quick-core/features/routing/session"
+	"github.com/edwardmelvin/quick-core/features/stats"
+	"github.com/edwardmelvin/quick-core/transport"
+	"github.com/edwardmelvin/quick-core/transport/pipe"
 )
 
 var errSniffingTimeout = newError("timeout on sniffing")

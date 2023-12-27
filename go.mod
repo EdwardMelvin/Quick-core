@@ -1,4 +1,4 @@
-module github.com/xtls/xray-core
+module EdwardMelvin/quick-core
 
 go 1.21.4
 
@@ -7,6 +7,7 @@ require (
 	github.com/golang/mock v1.6.0
 	github.com/google/go-cmp v0.6.0
 	github.com/gorilla/websocket v1.5.1
+	github.com/jpillora/chisel v1.9.1
 	github.com/miekg/dns v1.1.57
 	github.com/pelletier/go-toml v1.9.5
 	github.com/pires/go-proxyproto v0.7.0
@@ -46,7 +47,6 @@ require (
 	github.com/google/btree v1.1.2 // indirect
 	github.com/google/pprof v0.0.0-20231101202521-4ca4178f5c7a // indirect
 	github.com/jpillora/backoff v1.0.0 // indirect
-	github.com/jpillora/chisel v1.9.1 // indirect
 	github.com/jpillora/sizestr v1.0.0 // indirect
 	github.com/klauspost/compress v1.17.2 // indirect
 	github.com/klauspost/cpuid/v2 v2.2.6 // indirect

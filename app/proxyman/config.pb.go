@@ -7,9 +7,9 @@
 package proxyman
 
 import (
-	net "github.com/xtls/xray-core/common/net"
-	serial "github.com/xtls/xray-core/common/serial"
-	internet "github.com/xtls/xray-core/transport/internet"
+	net "github.com/edwardmelvin/quick-core/common/net"
+	serial "github.com/edwardmelvin/quick-core/common/serial"
+	internet "github.com/edwardmelvin/quick-core/transport/internet"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

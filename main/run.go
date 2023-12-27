@@ -16,10 +16,10 @@ import (
 
 	chclient "github.com/jpillora/chisel/client"
 	"github.com/jpillora/chisel/share/cos"
-	"github.com/xtls/xray-core/common/cmdarg"
-	"github.com/xtls/xray-core/common/platform"
-	"github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/main/commands/base"
+	"github.com/edwardmelvin/quick-core/common/cmdarg"
+	"github.com/edwardmelvin/quick-core/common/platform"
+	"github.com/edwardmelvin/quick-core/core"
+	"github.com/edwardmelvin/quick-core/main/commands/base"
 )
 
 var cmdRun = &base.Command{

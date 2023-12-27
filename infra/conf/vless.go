@@ -6,13 +6,13 @@ import (
 	"strconv"
 	"syscall"
 
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/serial"
-	"github.com/xtls/xray-core/common/uuid"
-	"github.com/xtls/xray-core/proxy/vless"
-	"github.com/xtls/xray-core/proxy/vless/inbound"
-	"github.com/xtls/xray-core/proxy/vless/outbound"
+	"github.com/edwardmelvin/quick-core/common/net"
+	"github.com/edwardmelvin/quick-core/common/protocol"
+	"github.com/edwardmelvin/quick-core/common/serial"
+	"github.com/edwardmelvin/quick-core/common/uuid"
+	"github.com/edwardmelvin/quick-core/proxy/vless"
+	"github.com/edwardmelvin/quick-core/proxy/vless/inbound"
+	"github.com/edwardmelvin/quick-core/proxy/vless/outbound"
 	"google.golang.org/protobuf/proto"
 )
 
